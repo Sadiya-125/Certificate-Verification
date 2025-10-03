@@ -85,7 +85,7 @@ export default function CertificatePage() {
   return (
     <div className="flex flex-col items-center justify-center p-6 w-full">
       {/* Scrollable Wrapper */}
-      <div className="w-full overflow-x-auto scroll-smooth px-4">
+      <div className="w-full overflow-x-auto scroll-smooth px-4 lg:justify-center lg:flex">
         <div
           ref={certificateRef}
           className="relative w-[1100px] h-[800px] shadow-lg flex-shrink-0"
